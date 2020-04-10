@@ -1,0 +1,1 @@
+package com.atguigu.springcloud;import org.springframework.boot.SpringApplication;import org.springframework.boot.autoconfigure.SpringBootApplication;/** * @Author: 车子昂 * @Date: 2020-4-10 15:00 * @Description: */@SpringBootApplicationpublic class PaymentMain {    public static void main(String[] args) {        SpringApplication.run(PaymentMain.class,args);    }}

@@ -1,0 +1,1 @@
+server:  port:8001spring:  application:    name:cloud-payment-service  profiles:    active: prod  #    active: devmybatis:  mapperLocation:classpath:mapper/*.xml  type-aliases-package: com.atguigu.springcloud.entities
