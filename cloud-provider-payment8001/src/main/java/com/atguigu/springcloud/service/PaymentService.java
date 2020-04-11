@@ -1,0 +1,1 @@
+package com.atguigu.springcloud.service;import com.atguigu.springcloud.entities.Payment;import org.apache.ibatis.annotations.Param;/** * @Author: 车子昂 * @Date: 2020-4-11 10:25 * @Description: */public interface PaymentService {    public int create(Payment payment);    public Payment getPaymentById(@Param("id") long id);}
