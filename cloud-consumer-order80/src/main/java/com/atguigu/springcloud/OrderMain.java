@@ -1,0 +1,1 @@
+package com.atguigu.springcloud;import org.springframework.boot.SpringApplication;import org.springframework.boot.autoconfigure.SpringBootApplication;/** * @Author: 车子昂 * @Date: 2020-4-11 14:08 * @Description: */@SpringBootApplicationpublic class OrderMain {    public static void main(String[] args) {        SpringApplication.run(OrderMain.class,args);    }}

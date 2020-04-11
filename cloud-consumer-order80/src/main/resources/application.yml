@@ -1,0 +1,1 @@
+server:  port: 8002spring:  application:    name: cloud-order-service  profiles:#    active: prod      active: dev  devtools:     restart:       enabled: true       additional-paths: src/main/java       exclude: templates/**mybatis:  type-aliases-package: com.atguigu.springcloud.entities  mapper-locations: classpath:mapper/*.xml
