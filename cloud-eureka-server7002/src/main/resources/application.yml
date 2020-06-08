@@ -1,1 +1,1 @@
-server:  port: 7002spring:  application:    name: cloud-eureka7001-service  profiles:        active: prod#    active: dev
+server:  port: 7002spring:  application:    name: cloud-eureka7002-service  profiles:        active: prod#    active: dev
